@@ -15,7 +15,9 @@ public class DataTeste {
 		d2.ano = 2025;
 		
 		System.out.println(d1.dia + " de " + d1.mes + " de " + d1.ano);
-		System.out.printf("%d de %s de %d", d2.dia, d2.mes, d2.ano);
+		System.out.printf("%d de %s de %d%n", d2.dia, d2.mes, d2.ano);
+		
+		System.out.println(d1.obterDataFormatada());
 	}
 
 }
