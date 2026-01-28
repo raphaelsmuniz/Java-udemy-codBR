@@ -6,4 +6,9 @@ public class Produto {
 	double preco;
 	double desconto;
 	//estas variáveis pertencem ao objeto.
+	
+	//foi definido de forma explicita o construtor padrão
+	Produto(String nomeInicial){
+		nome = nomeInicial;
+	}
 }
