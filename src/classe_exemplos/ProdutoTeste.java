@@ -12,6 +12,9 @@ public class ProdutoTeste {
 		p1.preco = 4356.89;
 		//p1.desconto = 0.25;
 		
+		//adicionado dia 03/03/26
+		Produto.desconto = 0.29;
+		
 		//construtor padrão foi perdido
 		//var p2 = new Produto();
 		//var p2 = new Produto("Caneta azul");
